@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Ahsing';
+    src: url('./assets/Fonts/ahsing-regular.otf') format('opentype');
+}
+:root{
+    --primaria: #bd1813;
+    --secundaria: #ffa7b2;
+    --fundo: #ffd4d9;
+    --texto: #1c1c1c;
+    --textoClaro: #efe9ce;
+}

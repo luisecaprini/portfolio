@@ -1,0 +1,36 @@
+.projeto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.title{
+    margin: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .projeto{
+        flex-direction: column;
+    }
+    .embed {
+        position: relative;
+        width: 100%;
+        padding-top: 75%; /* 4:3 proporção (480/640 = 0.75). Para 16:9 use 56.25% */
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      
+    .embed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        margin: none;
+    }
+    .title{
+        margin: 0;
+    }
+}

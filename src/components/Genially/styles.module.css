@@ -1,0 +1,15 @@
+.genially{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+@media screen and (max-width:1000px) {
+    .genially{
+        flex-direction: column;
+    }
+    .embed{
+        width: 100% !important;
+    }
+}

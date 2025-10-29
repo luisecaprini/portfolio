@@ -1,0 +1,76 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    color: var(--primaria);
+    padding: 25px;
+    background-color: var(--secundaria);
+    box-shadow: 20px 20px 0 var(--primaria);
+    margin-top: 10px;
+    width: 70%;
+    margin-top: 30px;
+}
+.header h1{
+    font-family: "Ahsing";
+    font-size: 72pt;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle p{
+    margin: 10px;
+    font-weight: bold;
+}
+.sobreMim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 80%;
+}
+.sobreMimText{
+    margin-left: 25px;
+}
+.abas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+h1{
+    font-family: "Ahsing";
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+@media screen and (max-width:1000px) {
+    .header h1{
+        font-size: 12vw;
+    }
+    .sobreMim, .abas{
+        flex-direction: column;
+    }
+    .sobreMim img{
+        width: 75vw;
+    }
+}

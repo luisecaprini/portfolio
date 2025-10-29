@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .section {
+    margin-bottom: 60px;
+    text-align: left;
+    width: 80%;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--primaria);
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+  }
+  
+  .item {
+    margin-bottom: 25px;
+  }
+  
+  .details {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  
+  .list {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  
+  .list li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+  }
+  
+  .list a {
+    color: var(--primaria);
+    text-decoration: none;
+  }
+  
+  .list a:hover {
+    text-decoration: underline;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .formGroup label {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formGroup input:focus,
+  .formGroup textarea:focus {
+    border-color: var(--primaria);
+    outline: none;
+  }
+  
+  .button {
+    align-self: flex-end;
+    background-color: var(--primaria);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: var(--primaria-hover, #005bb5);
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .form {
+      width: 90%;
+    }
+  }
+  
