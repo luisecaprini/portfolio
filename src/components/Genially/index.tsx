@@ -10,7 +10,7 @@ export default function Genially({name, folderName, desc}: {name: string, folder
             </div>
             <div style={{ position: "relative", overflow: "hidden", width: 700, height: 400 }} className={styles.embed}>
                 <iframe
-                    src={"./Genially/" + folderName + "/genially.html"}
+                    src={"/portfolio/Genially/" + folderName + "/genially.html"}
                     title="Genially incorporado"
                     style={{
                     position: "absolute",

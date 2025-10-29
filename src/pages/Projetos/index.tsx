@@ -17,7 +17,7 @@ export default function Projetos() {
   const [projetos, setProjetos] = useState<ProjetoData[]>([]);
 
   useEffect(() => {
-    fetch("/projetos.json")
+    fetch("/portfolio/projetos.json")
       .then((res) => res.json())
       .then((data) => setProjetos(data))
       .catch((err) => console.error("Erro ao carregar projetos:", err));

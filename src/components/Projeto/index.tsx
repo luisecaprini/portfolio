@@ -10,7 +10,7 @@ export default function Projeto({name, desc, embed, clicavel, imagens} : {name: 
                 <p>{desc}</p>
             </div>
             <div className={styles.embed}>
-                {embed != "" && embed != null ? embed : (imagens ? imagens.map(x => <><img src={x} alt="" width={(90 / imagens.length) + "%"} style={{margin: 10}} /></>) : null)}
+                {embed != "" && embed != null ? embed : (imagens ? imagens.map(x => <><img src={"/portfolio/" + x} alt="" width={(90 / imagens.length) + "%"} style={{margin: 10}} /></>) : null)}
             </div>
         </div>
     );

@@ -6,12 +6,12 @@ export default function Home(){
             <div className={styles.header}>
                 <h1>Luise Caprini</h1>
                 <div className={styles.subtitle}>
-                    <img src="/icon.png" alt="|" width={20} /><p>Designer Educacional</p><img src="/icon.png" alt="|" width={20} /><p>Psicóloga</p><img src="/icon.png" alt="|" width={20} />
+                    <img src="/portfolio/icon.png" alt="|" width={20} /><p>Designer Educacional</p><img src="/portfolio/icon.png" alt="|" width={20} /><p>Psicóloga</p><img src="/portfolio/icon.png" alt="|" width={20} />
                 </div>
             </div>
             <div className={styles.main}>
                 <div className={styles.sobreMim}>
-                    <img src="/sobreMim.png" alt="" width={500} />
+                    <img src="/portfolio/sobreMim.png" alt="" width={500} />
                     <div className={styles.sobreMimText}>
                         <h1>Sobre Mim</h1>
                         <p>Designer educacional com ênfase em Low-level Design e experiência em blended learning. Apaixonada por transmitir conhecimento de forma dinâmica e descomplicada. Além da experiência como designer educacional, a graduação em psicologia auxilia no entendimento dos processos de aprendizagem e análise contextual.</p>
