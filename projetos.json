@@ -1,9 +1,9 @@
 [
     {
-      "name": "Gamificação: coleção de livros didáticos para Ensino Fundamental I",
-      "desc": "A metodologia desenvolvida para esse material foi inspirada no RPG (Role-playing Game). O aluno cria um personagem que o acompanhará ao longo do ano letivo. Dessa maneira, os temas como autoconhecimento e virtudes são trabalhados em paralelo às diversas vivências do personagem que o próprio aluno criou. Além disso, são utilizados jogos de cartas e tabuleiro para facilitar a compreensão e fixação dos conteúdos ministrados em aula. A coleção completa conta com dez livros e diferentes temas pertinentes à terceira infância.",
-      "embed": "https://drive.google.com/file/d/1K91xPP0HrhhYFfIiCBWNfRA4eTPuT8B9/preview",
-      "clicavel": true
+        "name": "Gamificação: coleção de livros didáticos para Ensino Fundamental I",
+        "desc": "A metodologia desenvolvida para esse material foi inspirada no RPG (Role-playing Game). O aluno cria um personagem que o acompanhará ao longo do ano letivo. Dessa maneira, os temas como autoconhecimento e virtudes são trabalhados em paralelo às diversas vivências do personagem que o próprio aluno criou. Além disso, são utilizados jogos de cartas e tabuleiro para facilitar a compreensão e fixação dos conteúdos ministrados em aula. A coleção completa conta com dez livros e diferentes temas pertinentes à terceira infância.",
+        "embed": "https://drive.google.com/file/d/1K91xPP0HrhhYFfIiCBWNfRA4eTPuT8B9/preview",
+        "clicavel": true
     },
     {
         "name": "Microlearning",
@@ -26,25 +26,34 @@
     {
         "name": "Atividades em ambiente virtual de aprendizagem",
         "desc": "Além da estruturação de atividades a serem aplicadas em sala de aula, também atuo na criação de atividades e melhorias em um aplicativo de Projeto de Vida para adolescentes.",
-        "imagens": ["/Projetos/atvAmbienteVirtual/1.png", "/Projetos/atvAmbienteVirtual/2.png"],
+        "imagens": [
+            "/Projetos/atvAmbienteVirtual/1.png",
+            "/Projetos/atvAmbienteVirtual/2.png"
+        ],
         "clicavel": ""
     },
     {
-      "name": "Iluminação II",
-      "desc": "",
-      "genially": true,
-      "folderName": "IluminacaoII"
+        "name": "Iluminação II",
+        "desc": "",
+        "genially": true,
+        "folderName": "IluminacaoII"
     },
     {
-      "name": "Linha do Tempo - Lazer, Cultura e Entretenimento",
-      "desc": "",
-      "genially": true,
-      "folderName": "LinhaDoTempoLazCulEnt"
+        "name": "Linha do Tempo - Lazer, Cultura e Entretenimento",
+        "desc": "",
+        "genially": true,
+        "folderName": "LinhaDoTempoLazCulEnt"
     },
     {
-      "name": "Estudo de caso - Reprodução Humana Assistida",
-      "desc": "",
-      "genially": true,
-      "folderName": "EstudoCasoRepHumAss"
+        "name": "Estudo de caso - Reprodução Humana Assistida",
+        "desc": "",
+        "genially": true,
+        "folderName": "EstudoCasoRepHumAss"
+    },
+    {
+        "name": "Curso de extensão: preceptoria médica",
+        "desc": "curso",
+        "genially": true,
+        "folderName": "cursomedicina"
     }
-  ]
+]
