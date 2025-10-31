@@ -33,27 +33,33 @@
         "clicavel": ""
     },
     {
-        "name": "Iluminação II",
-        "desc": "",
-        "genially": true,
-        "folderName": "IluminacaoII"
-    },
-    {
-        "name": "Linha do Tempo - Lazer, Cultura e Entretenimento",
-        "desc": "",
-        "genially": true,
-        "folderName": "LinhaDoTempoLazCulEnt"
-    },
-    {
-        "name": "Estudo de caso - Reprodução Humana Assistida",
-        "desc": "",
-        "genially": true,
-        "folderName": "EstudoCasoRepHumAss"
-    },
-    {
         "name": "Curso de extensão: preceptoria médica",
-        "desc": "curso",
+        "desc": "Demonstrativo de um curso criado para a formação de preceptores. O curso foi escruturado no formato de storytelling e conta com um avatar que guia o aluno em sua jornada.",
         "genially": true,
         "folderName": "cursomedicina"
+    },
+    {
+        "name": "Linha do tempo interativa - Cinema & TV",
+        "desc": "Recurso criado para aulas do curso de Publicidade e Propaganda. Nele, os alunos podem compreender, de maneira dinâmica, a evolução história da televisão e do cinema.",
+        "genially": true,
+        "folderName": "cinema"
+    },
+    {
+        "name": "Infográfico interativo - O educador físico no SUS",
+        "desc": "Este infográfico foi pensado para aulas do curso de Educação Física e traz informações importantes sobre a atuação do educador físico no SUS, bem como um resumo sobre os níveis de atenção à saúde.",
+        "genially": true,
+        "folderName": "sus"
+    },
+    {
+        "name": "Imagem dinâmica - Neuroanatomia",
+        "desc": "Ensinar neuroanatomia no EaD é um desafio. As aulas práticas contam com o tradicional uso de alfinetes coloridos para demarcar as inúmeras e minúsculas áreas das estruturas cerebrais. Pensando nisso, essa solução traz alfinetes virtuais que facilitam o estudo do aluno, à medida que ele pode abrir ou fechar os nomes das estruturas apresentadas.",
+        "genially": true,
+        "folderName": "neuroanatomia"
+    },
+    {
+        "name": "Galeria de cards - Sociologia",
+        "desc": "O estudo da Sociologia tende a ser considerado massante por parte dos estudantes. Assim, a construção desse recurso didático uniu design gráfico, inteligência artificial e ferramenta de interação para criar uma galeria de cards que apresenta os pricipais teóricos da sociologia de maneira interessante e atrativa.",
+        "genially": true,
+        "folderName": "sociologia"
     }
 ]
